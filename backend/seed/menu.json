@@ -1,0 +1,141 @@
+{
+  "restaurant": {
+    "slug": "sunset-bistro",
+    "name": "Sunset Bistro"
+  },
+  "items": [
+    {
+      "id": 101,
+      "name": "Caesar Salad",
+      "description": "Fresh romaine lettuce with Caesar dressing, croutons, and parmesan",
+      "category": "starters",
+      "price": 12.50,
+      "modifier_ids": [2001, 2002]
+    },
+    {
+      "id": 102,
+      "name": "Bruschetta",
+      "description": "Toasted bread with tomatoes, garlic, and basil",
+      "category": "starters",
+      "price": 9.00,
+      "modifier_ids": [2001]
+    },
+    {
+      "id": 201,
+      "name": "Grilled Salmon",
+      "description": "Fresh Atlantic salmon with lemon butter sauce",
+      "category": "mains",
+      "price": 28.00,
+      "modifier_ids": [2003, 2004, 2005]
+    },
+    {
+      "id": 202,
+      "name": "Ribeye Steak",
+      "description": "12oz prime ribeye, cooked to perfection",
+      "category": "mains",
+      "price": 35.00,
+      "modifier_ids": [2003, 2004, 2005, 2006]
+    },
+    {
+      "id": 203,
+      "name": "Vegetarian Pasta",
+      "description": "Penne pasta with seasonal vegetables in marinara sauce",
+      "category": "mains",
+      "price": 18.00,
+      "modifier_ids": [2001, 2007]
+    },
+    {
+      "id": 301,
+      "name": "Chocolate Lava Cake",
+      "description": "Warm chocolate cake with molten center, served with vanilla ice cream",
+      "category": "desserts",
+      "price": 10.00,
+      "modifier_ids": []
+    },
+    {
+      "id": 302,
+      "name": "Tiramisu",
+      "description": "Classic Italian dessert with coffee and mascarpone",
+      "category": "desserts",
+      "price": 9.50,
+      "modifier_ids": []
+    },
+    {
+      "id": 401,
+      "name": "House Wine",
+      "description": "Red or white wine selection",
+      "category": "beverages",
+      "price": 8.00,
+      "modifier_ids": [2008, 2009]
+    },
+    {
+      "id": 402,
+      "name": "Craft Beer",
+      "description": "Selection of local craft beers",
+      "category": "beverages",
+      "price": 7.00,
+      "modifier_ids": [2010]
+    },
+    {
+      "id": 403,
+      "name": "Fresh Lemonade",
+      "description": "House-made lemonade",
+      "category": "beverages",
+      "price": 4.50,
+      "modifier_ids": []
+    }
+  ],
+  "modifiers": [
+    {
+      "id": 2001,
+      "name": "Extra Dressing",
+      "price": 1.50
+    },
+    {
+      "id": 2002,
+      "name": "Add Grilled Chicken",
+      "price": 5.00
+    },
+    {
+      "id": 2003,
+      "name": "Extra Sauce",
+      "price": 2.00
+    },
+    {
+      "id": 2004,
+      "name": "Side Salad",
+      "price": 6.00
+    },
+    {
+      "id": 2005,
+      "name": "Garlic Bread",
+      "price": 4.00
+    },
+    {
+      "id": 2006,
+      "name": "Add Shrimp",
+      "price": 8.00
+    },
+    {
+      "id": 2007,
+      "name": "Add Cheese",
+      "price": 2.50
+    },
+    {
+      "id": 2008,
+      "name": "Red Wine",
+      "price": 0.00
+    },
+    {
+      "id": 2009,
+      "name": "White Wine",
+      "price": 0.00
+    },
+    {
+      "id": 2010,
+      "name": "IPA Selection",
+      "price": 1.00
+    }
+  ]
+}
+
